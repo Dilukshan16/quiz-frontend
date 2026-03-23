@@ -92,7 +92,7 @@ export default function ResultsPage() {
             ))}
           </div>
 
-          {/* Mascot */}
+          {/* icons */}
           <div className="anim-popIn" style={{ fontSize: 76, textAlign: "center", lineHeight: 1, marginBottom: 10, animationDelay: "200ms" }}>
             {icon}
           </div>

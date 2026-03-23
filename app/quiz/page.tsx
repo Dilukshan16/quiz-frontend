@@ -52,7 +52,7 @@ export default function QuizPage() {
   const [navBusy, setNavBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Boot: start quiz session
+  // start quiz session
   useEffect(() => {
     const quizId = sessionStorage.getItem("currentQuizId");
     if (!quizId) { router.replace("/"); return; }

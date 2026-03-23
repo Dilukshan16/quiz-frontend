@@ -82,7 +82,7 @@ export default function HomePage() {
       {/* Main */}
       <main style={{ position: "relative", zIndex: 1, maxWidth: 880, margin: "0 auto", padding: "10px 24px 80px" }}>
 
-        {/* Step: Name entry */}
+        {/* Name entry */}
         {step === "name" && (
           <div className="anim-fadeUp" style={{ textAlign: "center", paddingTop: 24 }}>
             <div style={{
@@ -134,7 +134,7 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Step: Loading */}
+        {/* Loading */}
         {step === "loading" && (
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "50vh", gap: 20 }}>
             <div className="spinner lg" />
@@ -142,7 +142,7 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Step: Error */}
+        {/* Error */}
         {step === "error" && (
           <div className="glass-card anim-fadeUp" style={{ maxWidth: 480, margin: "60px auto", padding: 36, textAlign: "center" }}>
             <span style={{ fontSize: 52, display: "block", marginBottom: 16 }}>😵</span>
@@ -151,7 +151,7 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Step: Quiz list */}
+        {/* Quiz list */}
         {step === "quizzes" && (
           <div className="anim-fadeIn">
             <div style={{ marginBottom: 32 }}>
