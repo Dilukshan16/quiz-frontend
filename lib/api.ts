@@ -40,9 +40,7 @@ export const api = {
   prevQuestion: (attemptId: string) =>
     req<any>(`/sessions/${attemptId}/prev`, { method: "POST" }),
 
-  getResults: (attemptId: string) =>
-    req<any>(`/sessions/${attemptId}/results`),
+  getResults: (attemptId: string) => req<any>(`/sessions/${attemptId}/results`),
 
-  getProgress: (attemptId: string) =>
-    req<any>(`/progress/${attemptId}`),
+  getProgress: (attemptId: string) => req<any>(`/progress/${attemptId}`),
 };

@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 :root {
-  --sun:    #FFCA28;
-  --fire:   #FF6D00;
-  --candy:  #F50057;
-  --grape:  #651FFF;
-  --ocean:  #00B0FF;
-  --lime:   #76FF03;
-  --mint:   #1DE9B6;
-  --dark:   #12001F;
-  --surf:   #1E0035;
-  --card:   #2A0050;
-  --text:   #F3E8FF;
-  --muted:  #B39DDB;
+  --sun: #ffca28;
+  --fire: #ff6d00;
+  --candy: #f50057;
+  --grape: #651fff;
+  --ocean: #00b0ff;
+  --lime: #76ff03;
+  --mint: #1de9b6;
+  --dark: #12001f;
+  --surf: #1e0035;
+  --card: #2a0050;
+  --text: #f3e8ff;
+  --muted: #b39ddb;
   --border: rgba(179, 157, 219, 0.15);
 }
 
@@ -243,7 +243,10 @@ textarea {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s,
+    opacity 0.15s;
   white-space: nowrap;
   letter-spacing: 0.01em;
 }
